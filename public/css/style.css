@@ -111,7 +111,7 @@ body {
 /* MAP */
 
 #map {
-    margin-left: 275px;
+    /* margin-left: 275px; */
     height: 400px;
     width: 100vh;
  }
