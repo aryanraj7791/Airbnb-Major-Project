@@ -29,6 +29,7 @@ body {
 }
 
 .f-info-socials {
+    display: flex;
     font-size: 1.3rem;
 }
 
@@ -46,7 +47,7 @@ body {
 }
 
 .f-info-socials i {
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 /* cards */
@@ -108,10 +109,22 @@ body {
     width: 250px;
 }
 
+.f-info-socials i:hover {
+    font-size: 1.4rem;
+}
+
 /* MAP */
 
 #map {
-    /* margin-left: 275px; */
-    height: 400px;
-    width: 100vh;
+  width: 100%; 
+  height: 0;
+  padding-bottom: 56.25%; 
+  position: relative;
  }
+
+ @media (max-width: 768px) {
+    #map {
+      padding: 65%; 
+    }
+  }
+  
