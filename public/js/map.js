@@ -5,7 +5,7 @@ const map = new mapboxgl.Map({
 container: "map", // container ID
 center: listing.geometry.coordinates, // starting position [lng, lat]. Note that lat must be set between -90 and 90
 style: "mapbox://styles/mapbox/streets-v12",
-zoom: 8 // starting zoom
+zoom: 9 // starting zoom
 });
 
 console.log(listing.geometry.coordinates);
