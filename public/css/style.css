@@ -127,4 +127,31 @@ body {
       padding: 65%; 
     }
   }
+
+ .image {
+  width: 100%;            /* Always take full width of parent */
+  max-height: 400px;        /* Prevent overflow */
+  height: auto;           /* Adjust with content unless fixed */
+  border-radius: 1rem;    /* Optional: rounded corners */
+  overflow: hidden;       /* Hide parts of image if it overflows */
+}
+
+.image show-img {
+  width: 100%;            /* Scales with container */
+  height: 100%;           /* Keeps aspect ratio */
+  object-fit: cover;      /* If you set fixed height, crops instead of stretching */
+  display: block;         /* Removes extra space below image */
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-height: 250px;   /* adjust as you like */
+  }
+  .image show-img {
+    object-fit: cover;   /* ensures the image fills nicely */
+  }
+}
+
+
+
   
