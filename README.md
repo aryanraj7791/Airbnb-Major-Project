@@ -1,4 +1,4 @@
-# Airbnb Clone Project
+# Airbnb Full Stack Deployed Project
 
 ## Project Overview
 This project is a simplified clone of Airbnb, a popular platform for booking accommodations and hosting properties. It includes key features such as user authentication, property listings, reviews, and integration with third-party services like Mapbox for map functionality.
