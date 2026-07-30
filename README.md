@@ -1,10 +1,10 @@
 # 🏡 Airbnb Full Stack Deployed Project
 
-## Project Overview
+## 📖 Project Overview
 This project is a simplified clone of Airbnb, a popular platform for booking accommodations and hosting properties. It includes key features such as user authentication, property listings, reviews, and integration with third-party services like Mapbox for map functionality.
 This full stack project is implemented using MVC framework.
 
-## Application Preview
+## 🖥️ Application Preview
 
 ![Home Page](assets/airbnb_preview.png)
 
