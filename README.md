@@ -25,6 +25,9 @@ The application demonstrates practical implementation of:
 ## 🖥️ Application Preview
 
 ![Home Page](assets/airbnb_preview.png)
+![New Listing](assets/newListing.png)
+![Listing](assets/listings_interface.png)
+![Review](assets/review_page.png)
 
 ## ✨ Features
 - **User Authentication:**
